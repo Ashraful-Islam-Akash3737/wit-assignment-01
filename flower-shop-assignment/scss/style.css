@@ -67,4 +67,54 @@ body main .main-section .section-discription {
   font-size: 18px;
   font-weight: 400;
   margin-top: 10px;
+}
+body main .flower-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+body main .flower-container .container1 {
+  display: flex;
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+body main .flower-container .container1 .img1 {
+  height: 400px;
+  margin-top: 138px;
+  margin-left: 70px;
+}
+body main .flower-container .container2 {
+  display: flex;
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+body main .flower-container .container2 .img2 {
+  height: 400px;
+  margin-top: 138px;
+  margin-left: 70px;
+}
+body main .flower-container .container3 {
+  display: flex;
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+body main .flower-container .container3 .img3 {
+  height: 400px;
+  margin-top: 138px;
+  margin-left: 70px;
+}
+body main .name-section .flower-name {
+  display: flex;
+  justify-content: space-around;
+}
+body main .name-section .flower-name .p {
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */
