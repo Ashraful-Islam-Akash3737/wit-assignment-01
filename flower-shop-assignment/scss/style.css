@@ -52,7 +52,9 @@ body main .main-section {
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 178px;
-  background-color: rgb(239, 224, 224);
+  background-color: rgb(241, 191, 191);
+  border-radius: 5px;
+  padding: 10px 15px;
   margin-bottom: 10px;
   margin-left: 580px;
   margin-right: 580px;
