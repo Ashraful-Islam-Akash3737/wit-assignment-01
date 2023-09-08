@@ -267,6 +267,23 @@ body {
                 }
             }
         }
+        .flowers-container{
+            margin-top: 70px;
+            margin-bottom: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .f4{
+                padding-left: 30px;
+            }
+            .f3{
+                padding-left: 30px;
+            }
+            .f2{
+                padding-left: 30px;
+            }
+        }
+             
     }
 
 }

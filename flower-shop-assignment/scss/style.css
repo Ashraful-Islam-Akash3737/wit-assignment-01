@@ -207,4 +207,20 @@ body main .hot-deal .about-hot-deal .btn {
   background: #E55473;
   margin-top: 10px;
   font-size: 20px;
+}
+body main .flowers-container {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .flowers-container .f4 {
+  padding-left: 30px;
+}
+body main .flowers-container .f3 {
+  padding-left: 30px;
+}
+body main .flowers-container .f2 {
+  padding-left: 30px;
 }/*# sourceMappingURL=style.css.map */
