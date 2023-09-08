@@ -44,4 +44,27 @@ body header .container .container-contant .container-img {
 body header .container .container-contant .container-img .image {
   width: 635px;
   height: 800px;
+}
+body main .main-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 178px;
+  background-color: rgb(239, 224, 224);
+  margin-bottom: 10px;
+  margin-left: 580px;
+  margin-right: 580px;
+}
+body main .main-section .section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+body main .main-section .section-discription {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
