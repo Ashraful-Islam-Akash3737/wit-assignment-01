@@ -151,10 +151,7 @@ body {
 
             }
 
-            // .flower-name{
-            //     display: flex;
-            //     flex-direction: column;
-            // }
+
         }
 
         .name-section {
@@ -267,23 +264,107 @@ body {
                 }
             }
         }
-        .flowers-container{
+
+        .flowers-container {
             margin-top: 70px;
             margin-bottom: 70px;
             display: flex;
             align-items: center;
             justify-content: center;
-            .f4{
+
+            .f4 {
                 padding-left: 30px;
             }
-            .f3{
+
+            .f3 {
                 padding-left: 30px;
             }
-            .f2{
+
+            .f2 {
                 padding-left: 30px;
             }
         }
-             
+
+        .bg-image {
+            background-image: url("../Flower Asset/Rectangle 9.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 80%;
+            height: 449px;
+            margin: 100px 130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .h1 {
+                font-size: 40px;
+                font-weight: 800;
+                margin-bottom: 20px;
+            }
+
+            .p {
+                margin-top: 15px;
+                color: rgba(39, 39, 39, 0.8);
+            }
+
+            .input-section {
+                margin-bottom: 30px;
+
+                input {
+                    border-radius: 8px;
+                    border: 1px solid transparent;
+                    background-color: white;
+                    padding: 22px 43px;
+                    font-size: 15px;
+                    margin-right: 20px;
+                }
+
+                .btn {
+                    display: inline-flex;
+                    padding: 20px 43px;
+                    align-items: flex-start;
+                    gap: 10px;
+                    border-radius: 8px;
+                    border: 1px solid transparent;
+                    background: #E55473;
+                    margin-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+
+    }
+
+    footer {
+
+        .footer-container {
+            background-color: #111010;
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .h1{
+                font-size: 40px;
+                font-weight: 800;
+                margin-bottom: 20px;
+                color: white;
+                span{
+                    color: #E55473;
+                    font-size: 40px;
+                    font-weight: 800; 
+                }
+            }
+            .p{
+                color:white
+
+            }
+            .copyright{
+                color: white;
+            }
+        }
     }
 
 }
