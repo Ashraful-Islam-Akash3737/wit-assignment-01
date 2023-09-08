@@ -34,7 +34,9 @@ body header .container .container-contant .btn {
   gap: 10px;
   border-radius: 8px;
   background: #E55473;
+  border: 1px solid transparent;
   margin-top: 10px;
+  font-size: 20px;
 }
 body header .container .container-contant .container-img {
   width: 635px;
@@ -163,4 +165,44 @@ body main .service-section .customer-service {
 body main .service-section .customer-service p {
   margin-top: 15px;
   color: rgba(39, 39, 39, 0.8);
+}
+body main .hot-deal {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 50px;
+}
+body main .hot-deal .about-hot-deal {
+  text-align: center;
+  margin-top: 150px;
+}
+body main .hot-deal .about-hot-deal .hot-deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+body main .hot-deal .about-hot-deal .hot-deal-title span {
+  color: #E55473;
+  font-size: 40px;
+  font-weight: 800;
+}
+body main .hot-deal .about-hot-deal .hot-deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+body main .hot-deal .about-hot-deal .btn {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: #E55473;
+  margin-top: 10px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
